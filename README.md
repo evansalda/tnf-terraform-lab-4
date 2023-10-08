@@ -83,9 +83,9 @@ En plus de ces variables, créez les 3 variables locales suivantes (doc [ici](ht
 
 | Nom         | ValeurType | Valeur                                            |
 |-------------|------------|---------------------------------------------------|
-| elb_sg_name | string     | Le nom du security group de votre load-balancer   |
-| ec2_sg_name | string     | Le nom du security group de votre EC2             |
-| db_sg_name  | string     | Le nom du security group de votre base de données |
+| elb_name    | string     | Le nom de votre load-balancer                     |
+| ec2_name    | string     | Le nom de votre EC2                               |
+| db_name     | string     | Le nom de votre base de données                   |
 
 Vous trouverez ci-dessous le nom à renseigner pour vos futurs load-balancer, ec2 et base de données :
 - Load-balancer : nuumfactory-\<environnement\>-lb-\<digit\>
