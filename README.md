@@ -90,7 +90,7 @@ En plus de ces variables, créez les 3 variables locales suivantes (doc [ici](ht
 Vous trouverez ci-dessous le nom à renseigner pour vos futurs load-balancer, ec2 et base de données :
 - Load-balancer : nuumfactory-\<environnement\>-lb-\<digit\>
 - EC2 : nuumfactory-\<environnement\>-ec2-\<digit\>
-- Base de données : nuumfactory-\<environnement\>-elb-\<digit\>
+- Base de données : nuumfactory-\<environnement\>-db-\<digit\>
 
 Indice : les valeurs des variables locales interpolent deux des variables globales que vous venez de créer.
 
