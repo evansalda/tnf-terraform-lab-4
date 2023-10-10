@@ -70,7 +70,7 @@ Le bucket créé s’appellera bucket-the-nuum-factory-01.
 
 En vous appuyant sur l’exemple ci-dessus et sur la [documentation officielle de terraform](https://developer.hashicorp.com/terraform/language/values/variables), créez les variables suivantes dans votre fichier **main.tf**, et définissez leur valeur dans un fichier nommé **developpement.tfvars** que vous créerez dans votre répertoire de travail (remplacez les valeurs en **gras** par la bonne valeur) :
 
-| Nom           | ValeurType   | Valeur                                                                                                 |
+| Nom           | Type         | Valeur                                                                                                 |
 |---------------|--------------|--------------------------------------------------------------------------------------------------------|
 | vpc           | string       | "L’ID du VPC nuumfactory-vpc"                                                                          |
 | environnement | string       | "dev"                                                                                                  |
@@ -81,7 +81,7 @@ En vous appuyant sur l’exemple ci-dessus et sur la [documentation officielle d
 
 En plus de ces variables, créez les 3 variables locales suivantes (doc [ici](https://developer.hashicorp.com/terraform/language/values/locals)) :
 
-| Nom         | ValeurType | Valeur                                            |
+| Nom         | Type       | Valeur                                            |
 |-------------|------------|---------------------------------------------------|
 | elb_name    | string     | Le nom de votre load-balancer                     |
 | ec2_name    | string     | Le nom de votre EC2                               |
